@@ -24,6 +24,8 @@ We could save more memory by further dropping matching textures which can be bui
 
 Generating the maps is simple: we just draw the 9 required tiles in gray and white, apply some gaussian blur, and save the middle tile.
 
+For more information and the results, read the article on [CodeBin](http://codebin.co.uk/blog/fake-ambient-occlusion-part1/).
+
 ## 3. Usage
 
 It is first and foremost a development tool, not very user friendly, and once compiled, fully automatic. To change the parameters, edit the static fields of **org.codebin.faketileao.Config**.
